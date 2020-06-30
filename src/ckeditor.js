@@ -53,7 +53,6 @@ import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar.js';
 import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformation.js';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
-import Watchdog from '@ckeditor/ckeditor5-watchdog/src/editorwatchdog.js';
 
 class Editor extends DecoupledDocumentEditor {}
 
@@ -111,4 +110,4 @@ Editor.builtinPlugins = [
 	Underline
 ];
 
-export default { Editor, Watchdog };
+export default Editor;
